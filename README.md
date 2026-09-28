@@ -1,5 +1,10 @@
 # 📈 SEC EDGAR Corporate Profitability Prediction with XGBoost & SHAP
 
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![XGBoost](https://img.shields.io/badge/Model-XGBoost-green.svg)](https://xgboost.readthedocs.io/)
+[![XAI-SHAP](https://img.shields.io/badge/Explainability-SHAP-red.svg)](https://shap.readthedocs.io/)
+
 ## 📌 Project Overview
 This project presents an end-to-end Machine Learning pipeline designed to evaluate financial health and predict company profitability based on financial ratios derived from **U.S. SEC EDGAR filings**.
 
@@ -39,3 +44,27 @@ The model evaluates **9 fundamental financial metrics** across profitability, li
 * **Explainability (XAI):** SHAP (TreeExplainer)
 * **Data Processing & Visualization:** Pandas, NumPy, Matplotlib, Seaborn
 * **Environment:** Google Colab / Jupyter Notebook
+
+---
+
+* ## 💾 Dataset & Directory Structure
+
+Due to GitHub repository size limitations, the complete SEC EDGAR quarterly dataset archive is hosted on Google Drive.
+
+* **Dataset Download Link:** [SEC EDGAR Quarterly Datasets (Google Drive)](https://drive.google.com/file/d/1c96AZD95B6HBCUgKO63TfbVFIE0qw-yL/view?usp=sharing)
+
+### Setup Data Instructions:
+1. Download the zip archive from the link above.
+2. Extract the contents directly into the project's root folder.
+3. Ensure the folder layout matches the structure below before running the notebook.
+
+```text
+sec-edgar-xgboost-profitability/
+├── 1Q2025/                         # SEC quarterly financial reports Q1 2025
+├── 1Q2026/                         # SEC quarterly financial reports Q1 2026
+├── 2Q2025/                         # SEC quarterly financial reports Q2 2025
+├── 3Q2025/                         # SEC quarterly financial reports Q3 2025
+├── 4Q2025/                         # SEC quarterly financial reports Q4 2025
+├── operating_results_forecast.ipynb # Main analysis & modeling notebook
+├── requirements.txt                # Python environment dependencies
+└── README.md                       # Project documentation
