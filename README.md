@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/artur-przygodzki/sec-edgar-xgboost-profitability/blob/main/TWOJ_PLIK.ipynb)
+
 # 📈 SEC EDGAR Corporate Profitability Prediction with XGBoost & SHAP
 
 ## 📌 Project Overview
