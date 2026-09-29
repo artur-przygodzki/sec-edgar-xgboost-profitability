@@ -10,6 +10,8 @@ This project presents an end-to-end Machine Learning pipeline designed to evalua
 
 By combining **XGBoost** classification with **Explainable AI (SHAP)**, the model provides both high predictive performance (**>85% accuracy**) and transparent, actionable insights for investment decision-making.
 
+> 🔗 **Quick Access:** You can view the full code, execution outputs, and visualizations directly in GitHub by opening [operating_results_forecast.ipynb](operating_results_forecast.ipynb).
+
 ---
 
 ## 🔑 Key Financial & Modeling Insights
